@@ -1,0 +1,38 @@
+{
+  "name": "dat-elife",
+  "version": "0.0.0",
+  "description": "Fetch elife XML into Dat",
+  "main": "index.js",
+  "dependencies": {
+    "aws-stream": "0.0.1",
+    "dat": "^6.1.3",
+    "pace-stream": "0.0.0",
+    "tool-stream": "^0.1.0",
+    "xml-json": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./index.js"
+  },
+  "bin": {
+    "dat-elife": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bmpvieira/dat-elife.git"
+  },
+  "keywords": [
+    "dat",
+    "elife",
+    "streams",
+    "aws",
+    "science"
+  ],
+  "author": "Bruno Vieira <mail@bmpvieira.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bmpvieira/dat-elife/issues"
+  },
+  "homepage": "https://github.com/bmpvieira/dat-elife"
+}
