@@ -4,7 +4,7 @@
   "description": "Fetch elife XML into Dat",
   "main": "index.js",
   "dependencies": {
-    "aws-stream": "0.0.1",
+    "aws-stream": "0.1.0",
     "dat": "^6.1.3",
     "pace-stream": "0.0.0",
     "tool-stream": "^0.1.0",
