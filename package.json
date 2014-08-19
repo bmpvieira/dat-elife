@@ -1,6 +1,6 @@
 {
   "name": "dat-elife",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Fetch elife XML into Dat",
   "main": "index.js",
   "dependencies": {
