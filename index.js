@@ -13,10 +13,12 @@ var progress = pace.obj()
 function ready(error) {
   if (error) throw error
 
+  var concurrency = Number(process.argv.slice(2)[0]) || 1
+
   aws.s3.ls('elife-cdn', 'elife-articles')
   .pipe(tool.collectMatch('Key', 'xml'))
   .pipe(progress.incrementTotal)
-  .pipe(aws.s3.get('elife-cdn'))
+  .pipe(aws.s3.get('elife-cdn', concurrency))
   .pipe(xmlJSON('article'))
   .pipe(progress)
   .pipe(db.createWriteStream())

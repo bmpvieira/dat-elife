@@ -10,7 +10,7 @@ export AWS_SECRET_ACCESS_KEY=9jp49DRRK2xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 npm install dat-elife -g
 
-dat-elife
+dat-elife # <optional number of parallel get> (e.g. dat-elife 30)
 cd elife
 dat listen
 ```
